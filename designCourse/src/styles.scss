@@ -1,0 +1,257 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.3em;
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    a {
+        color: white;
+    }
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+// @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+// body {
+//   font-family: 'Roboto Condensed', sans-serif;
+//   margin: 0;
+//   background: #f4f4f4;
+//   color: #ccc;
+//   height: auto;
+// }
+
+// h1 {
+//   font-weight: 400;
+//   font-size: 2.5rem;
+//   text-transform: uppercase;
+//   margin: 0;
+// }
+
+// h2 {
+//   font-weight: 400;
+//   font-size: 1.2rem;
+//   text-transform: capitalize;
+//   margin: 0;
+// }
+
+// h3 {
+//   font-weight: 350;
+//   font-size: 2rem;
+//   text-transform: capitalize;
+//   margin: 0;
+// }
+
+// h4 {
+//   font-weight: 400;
+//   font-size: 1.5rem;
+
+//   margin: 0;	
+// }
+
+
+// img {
+//   display: flex;
+//   width: 100%;
+// }
+
+// header {
+//     display: flex;
+//     flex: 0 1 70vw;
+//     height: 70vh;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     padding-right: 1rem;
+//     padding-left: 1rem;
+//     box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.65),
+//       -30px 0px 40px rgba(0, 0, 0, 0.65);
+//   }
+  
+// nav {
+//   max-width: 900px;
+//   margin: auto;
+//   box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.65),
+//     -30px 0px 40px rgba(0, 0, 0, 0.65);
+// }
+
+// #fullPage {
+//     background: black;
+//   }
+
+// #navBar {
+//     background: blue;
+// }
+
+
+// #landing {
+//   background: black;
+// }
+
+// #photos-landing {
+//   background: #fff;
+// }
+
+// #landing-text {
+//   display: flex;
+//   flex: 0 1 70vw;
+//   height: 70vh;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   padding-right: 1rem;
+//   padding-left: 1rem;
+// }
+
+// #landing-text h2 {
+//   color: #888;
+// }
+
+// #landing-image {			
+//   background-image: url("https://images.unsplash.com/photo-1540312479395-6b36e14a5961?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a395bd234f0788c8b14f062fcfaec2f3&auto=format&fit=crop&w=1868&q=80");
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   height: 100vh;
+//   flex: 1 1 60vw;
+//   margin: 0;
+// }
+
+
+// #sandbox-image {			
+//   background-image: url("https://cdn-images-1.medium.com/max/2600/1*_3CrsHhDOtcCxYrP1gJZxw.jpeg");
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   height: 100vh;
+//   flex: 1 0 60vw;
+//   margin: 0;
+// }
+
+// #js-image {			
+//   background-image: url("https://lh3.googleusercontent.com/JEMCHNsSdR6x4wU1cOuZ9WO11GqX_dv11CgSAFt5w62tuDJX1wyPyRB5NckwpkbllZ8");
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   height: 100vh;
+//   flex: 1 0 43vw;
+//   margin: 0;
+// }
+
+// #photos-landing-image {			
+//   background-image: url(https://source.unsplash.com/De8wMYoSSBc);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   height: 100vh;
+//   flex: 0 1 60vw;
+//   margin: 0;
+// }
+
+// li {
+//   padding: 0.5rem 2rem;
+//   border: 1px #ccc solid;
+//   display: inline-block;
+//   margin: 2rem 0 0;
+//   border-radius: 50px;
+//   text-decoration: none;
+//   color: #888;
+//   transition: background 500ms ease;
+// }
+
+// li:hover {
+//   background: #f4f4f4;
+// }
+
+// .btn {
+//     padding: 0.5rem 2rem;
+//     border: 1px #ccc solid;
+//     display: inline-block;
+//     margin: 2rem 0 0;
+//     border-radius: 50px;
+//     text-decoration: none;
+//     color: #888;
+//     transition: background 500ms ease;
+//   }
+  
+//   .btn:hover {
+//     background: #f4f4f4;
+//   }
+
+
+// #header {
+//   padding: 1.5rem;
+//   text-align: center;
+//   background: #333;
+//   color: #fff;
+// }
+
+// #header h2 {
+//   border-left: dotted 1px #fff;
+//   border-right: dotted 1px #fff;
+//   display: inline-block;
+//   padding-right: 1rem;
+//   padding-left: 1rem;
+// }
+
+// .caption {
+//   padding: 0.8rem;
+//   text-align: center;
+// }
+
+// footer {
+//   text-align: center;
+//   padding: 2rem 1rem;
+//   margin: auto;
+//   color: #333;
+// }
+
+// footer h3 {
+//   font-size: 3rem;
+//   margin-bottom: 0;
+// }
+
+// /* Screen Sizes 500px and Up */
+// @media (min-width: 500px) {
+//   #landing {
+//     display: flex;
+//     height: 100%;
+//   }
+
+//   #landing-text {
+//     height: 100vh;
+//   }
+
+//   #landing-image {
+//     height: 100vh;
+//   }
+// }
+
+// /* Screen Sizes 700px and Up */
+// @media (min-width: 700px) {
+//   .btn {
+//     padding: 1rem 3rem;
+//   }
+// }
